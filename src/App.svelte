@@ -9,11 +9,10 @@ export let name;
 		color: purple;
 	}
 </style>
- <a-scene>
-	<a-plane position="0 0 -4" rotation="-90 0 0" width="100" height="100" color="#7BC8A4"></a-plane>
-	<a-sky color="#ECECEC"></a-sky>
+
+<a-scene>
+  <a-camera wasd-controls-enabled="false"></a-camera>
+	<a-sky src="sky/pano2.jpg" rotation="0 0 0"></a-sky>
 </a-scene>
 
-<div class="ui">
-	<h1>Hello {name}!</h1>
-</div>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/bebuiaSKtU4?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
